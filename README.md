@@ -1,0 +1,1 @@
+K8s sample project with 2 service + Spring Admin 
