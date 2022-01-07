@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'ru.papont'
-version = '0.0.1-SNAPSHOT'
+archivesBaseName = 'app'
 sourceCompatibility = '11'
 
 repositories {

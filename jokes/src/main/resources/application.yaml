@@ -1,8 +1,13 @@
 spring:
+  application:
+    name: jokes
+
   boot:
     admin:
       client:
-        url: http://localhost:8080/
+        instance:
+          prefer-ip: true
+        url: ${SPRING_ADMIN:http://localhost:8080/}
 
 
 management:
@@ -11,5 +16,5 @@ management:
       exposure:
         include: "*"
 
-server:
-  port: 8081
+#server:
+#  port: 8081
